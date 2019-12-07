@@ -18,7 +18,7 @@ sudo chown -R hduser:hadoop /usr/local/hadoop-2.10.0/
 sudo chown -R root:root /usr/local/jdk1.8.0_231
 
 
-sudo git clone  https://github.com/fychao/CYCU_BigDataClass.git $HADOOP_HOME/etc/CYCU_BigDataClass
+sudo git clone  https://github.com/TiffanyHuang82/CYCU_BigDataClass.git $HADOOP_HOME/etc/CYCU_BigDataClass
 sudo chown -R hduser:hadoop $HADOOP_HOME/etc/CYCU_BigDataClass
 sudo mv $HADOOP_HOME/etc/hadoop $HADOOP_HOME/etc/hadoop_bak
 sudo ln -s $HADOOP_HOME/etc/CYCU_BigDataClass/hadoop_multi_nodes/hadoop $HADOOP_HOME/etc/hadoop
